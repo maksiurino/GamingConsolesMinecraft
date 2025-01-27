@@ -20,6 +20,7 @@ public class GamingConsoles implements ModInitializer {
 		GeckoLib.initialize();
 
 		ModItems.registerModItems();
+		ModBlockItems.registerBlockItems();
 		ModBlocks.registerModBlocks();
 	}
 }
